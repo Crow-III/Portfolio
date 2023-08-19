@@ -1,0 +1,28 @@
+/* Reset default margin and padding for body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the shrinking images */
+.shrink-image {
+    max-width: 20; /* Set the maximum width for the image */
+    height: 20%; /* Maintain the image's aspect ratio */
+}
+
+/* Additional styling for your header and other elements can be added here */
+header {
+}
+
+/* Add more styles as needed */
+
+.pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-height: 50px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
