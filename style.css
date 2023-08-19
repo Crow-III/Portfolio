@@ -1,28 +1,49 @@
 /* Reset default margin and padding for body */
+
+   
+
 body {
     margin: 0;
     padding: 0;
+     background: linear-gradient(to bottom, black, blue);
 }
 
 /* Style the shrinking images */
 .shrink-image {
-    max-width: 20; /* Set the maximum width for the image */
-    height: 20%; /* Maintain the image's aspect ratio */
+    max-width: 100%; /* Set a fixed maximum width for the image */
+    height: 600px; /* Maintain the image's aspect ratio */
+    position: relative;
+    left: 75px;
 }
 
 /* Additional styling for your header and other elements can be added here */
 header {
+    /* Your header styles */
 }
 
 /* Add more styles as needed */
 
 .pictures {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-height: 50px;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 20px; /* Add some gap between grid cells */
+    justify-content: center; /* Center the grid horizontally */
 }
 
-img {
-    width: 100px;
-    height: auto;
+.text {
+    text-align: center;    
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: white;
+}
+
+.raccoon{
+    position: relative;
+    left: 42%;
+}
+
+.h1 {
+font-weight: bolder;
+text-align: center;    
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color: white;
 }
